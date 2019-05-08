@@ -156,6 +156,8 @@ app.layout = html.Div(
     ]),
 ])
 
+app.title='CONFLICT REPORTS'
+
 @app.callback(
     [Output('congo-yearly', 'figure'),
      Output('my-div', component_property='children')],
